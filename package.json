@@ -1,6 +1,6 @@
 {
   "name": "random-starred-repo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return a random repo from the ones starred by you.",
   "license": "MIT",
   "repository": "egoist/random-starred-repo",
