@@ -24,7 +24,7 @@ random('egoist')
 
 ## API
 
-### randomStarredRepo(username, [access_token)
+### randomStarredRepo(username, [access_token])
 
 #### username
 
