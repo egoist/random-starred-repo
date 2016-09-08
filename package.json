@@ -1,0 +1,42 @@
+{
+  "name": "random-starred-repo",
+  "version": "0.0.0",
+  "description": "Return a random repo from the ones starred by you.",
+  "license": "MIT",
+  "repository": "egoist/random-starred-repo",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "repo",
+    "random",
+    "star",
+    "github"
+  ],
+  "devDependencies": {
+    "ava": "latest",
+    "xo": "latest"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2,
+    "rules": {
+      "camelcase": 0
+    }
+  },
+  "dependencies": {
+    "got": "^6.3.0",
+    "starred-count": "^0.1.0"
+  }
+}
